@@ -10,7 +10,7 @@ public class HelloWorldJenkinsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldJenkinsApplication.class, args);
-		System.out.println("Hello JUNIT");
+		System.out.println("Jenkins with github");
 
 		Calcul c = new Calcul();
 		int res = c.somme(10, 4);
